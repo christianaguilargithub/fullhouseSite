@@ -1,0 +1,249 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  @font-face {font-family: "COCOGOOSE"; 
+    src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot"); 
+    src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") 
+    format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") 
+    format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") 
+    format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") 
+    format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg"); } 
+/* MOBILE */
+@media only screen and (max-width: 950px){
+    .main-nav{
+        display:none
+     }
+     .burger-top{
+         display: flex;
+         justify-content: space-between;
+         background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+     }
+     .landinglogo-burger{
+        width: 155px;
+        height: 35px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .landinglogo{
+        width: 170px;
+        height: 45px;
+        margin-bottom: 20px;
+    }
+     .overlay {
+        height: 0%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+        /* background-color: #ff9625;
+        background-image: linear-gradient(147deg, #ff9625 2%, #ff9625 11%, #ffc130 67%, #ff9966 100%); */
+        overflow-y: hidden;
+        transition: 0.5s;
+      }
+      .overlay-content {
+        position: relative;
+        top: 5%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        font-family: COCOGOOSE;
+      }
+      .overlay a {
+        padding: 1.2rem;
+        text-decoration: none;
+        font-size: 20px;
+        color: #2c2a2a;
+        display: block;
+        transition: 0.3s;
+      }
+      .overlay a:hover, .overlay a:focus {
+        color: #7C3AED;
+      }
+      .overlay .closebtn {
+        position: absolute;
+        top: 5px;
+        right: 3px;
+        font-size: 50px;
+      }
+      .register-provider-btn{
+        margin-top: .6em;
+        font-size: 1em;
+        padding-left: 20px;
+        padding-right: 20px;
+        color:azure;
+        background-color: black;
+        border-radius: 10px;
+      }
+      .register-provider-btn:hover{
+        color:rgb(54, 0, 0);
+        background-image: linear-gradient(147deg, #dad8d5 2%, #e2e0dc 11%, #bdbbb6 67%, #ddd6d3 100%);
+        cursor: pointer;
+        font-weight: 800;
+      }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 950px){
+    .burger{
+        display: none;
+    }
+    .main-nav{  
+        /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
+    }
+    .myHeader{
+        padding-top: 10px;
+        width: 100%;
+        box-shadow: 0px 1px 10px #999;
+        border-bottom: solid #999;
+    }
+    .myNavbar{
+    width: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: solid;
+    }
+    .landingmenu{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        justify-content: space-evenly;
+        padding-left: 40px;
+        margin-top: 7px;
+    }
+    .landingmenu-button{
+        font-size: .7em;
+        color:azure;
+        background-color: black;
+        border-radius: 10px;
+    }
+    .landingmenu button:hover{
+        color:rgb(54, 0, 0);
+        background-image: linear-gradient(147deg, #dad8d5 2%, #e2e0dc 11%, #bdbbb6 67%, #ddd6d3 100%);
+        cursor: pointer;
+        font-weight: 300;
+    }
+    li{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 0.900rem;
+        font-weight: 500;
+        color: #1F2937;
+        text-decoration: none;
+    }
+    a{  font-family: COCOGOOSE;
+        text-decoration: none;
+        color:#1F2937;
+        margin-right: 30px;
+    }
+    a:hover{
+        color: #5B21B6;
+    }
+    .a{
+        text-decoration: none;
+        color:#1F2937;
+    }
+    .landinglogo{
+        width: 190px;
+        height: 35px;
+        padding-left: 3%;
+        /* margin-top: 3px; */
+       margin-bottom: 5px;
+        /* margin-left: 15px; */
+    }
+    .navmenu{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    /* BODY */
+    .body-desktop{
+        margin-top: 20px;
+    }
+    .product-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .product-image{
+        margin: 10px;
+    }
+    /* CARD */
+    .card-1{
+        width: 100%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        border: 1px #a18cd1 solid;
+    }
+    .card-2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border: 1px #a18cd1 solid;
+    }
+    .item-image{
+        width: 40em;
+        height: 40em;
+    }
+    #item-image{
+        width: 90%;
+        height: 70%;
+        margin: 20px;
+        border: 5px #a18cd1 solid;
+    }
+    .header-1 {
+        font-family: COCOGOOSE;
+        font-size: large;
+        letter-spacing: .1em;
+        background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .container-1 {
+        width: 60%;
+        height: 50%;
+    }
+    .item-image1{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .container-1-p{
+        margin-left: 20px;
+    }
+    .swatch-container{
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        border: #a18cd1 solid;
+        text-align: center;
+        font-size: .7em;
+    }
+    .swatch-container img{
+        width: 100px;
+        height: 100px;
+        border-bottom: #a18cd1 solid;
+
+    }
+    .swatch-header{
+        font-family: COCOGOOSE;
+        text-align: left;
+        margin-left: 10px;
+        letter-spacing: .1em;
+    }
+    p{
+        font-family: poppins;
+    }
+}
