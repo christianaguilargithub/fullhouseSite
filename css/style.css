@@ -169,6 +169,64 @@
     p{
         font-family: poppins;
     }
+    .text-talk{
+        text-align: center;
+        font-family: COCOGOOSE;
+        font-size: 2em;
+        margin-top: 20px;
+        
+    }
+    .text-p{
+        font-size: 1em;
+        text-align: center;
+    }
+    .medias{
+        margin-top: 50px;
+    }
+    .fab{
+        font-size: 4em;
+        color: blue;
+        cursor: pointer;
+    }
+    .far{
+        font-size: 4em;
+        color: red;
+        cursor: pointer;
+    }
+    .phone{
+        margin-top: 70px;
+    }
+    .fas{
+        font-size: 1.5em;
+        color: black;
+        cursor: pointer;
+    }
+    .landing-text{
+        font-family: COCOGOOSE;
+        font-size: 2.5em;
+        padding-top: 160px;
+        text-align: center;
+        width: 70%;
+        color: wheat;
+        text-shadow: 1.5px 0 0 #000, 0 -1.5px 0 #000, 0 1.5px 0 #000, -1.5px 0 0 #000;
+        
+    }
+    .bg-pic{
+        display: flex;
+        justify-content: center;
+        background-color: 
+    }
+    .body-desktop{
+        background-image: url("../home.jpg");
+        background-size: cover;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        /*object-fit: cover;*/
+        background-position: center;
+       
+        height: 100vh; /* Some height */
+    }
     /* MOBILE BODY END */
 }
 
@@ -179,6 +237,17 @@
     }
     .main-nav{  
         /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
+    }
+    footer{
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+        letter-spacing: .2em;
+        font-weight: 550;
+        font-family: poppins;
+        background-color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
     .myHeader{
         padding-top: 10px;
@@ -327,5 +396,109 @@
     }
     p{
         font-family: poppins;
+    }
+    .main-text{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .text-talk{
+        font-family: COCOGOOSE;
+        font-size: 4em;
+        margin-right: 300px;
+        margin-bottom: 20px;
+    }
+    .text-p{
+        font-size: 1.4em;
+    }
+    .medias{
+        margin-top: 50px;
+    }
+    .fab{
+        font-size: 4em;
+        color: blue;
+        cursor: pointer;
+    }
+    .far{
+        font-size: 4em;
+        color: red;
+        cursor: pointer;
+    }
+    .phone{
+        margin-top: 70px;
+    }
+    .fas{
+        font-size: 1.5em;
+        color: black;
+        cursor: pointer;
+    }
+    .landing-text{
+        font-family: COCOGOOSE;
+        font-size: 2.5em;
+        padding-top: 160px;
+        text-align: center;
+        width: 70%;
+        color: wheat;
+        text-shadow: 1.5px 0 0 #000, 0 -1.5px 0 #000, 0 1.5px 0 #000, -1.5px 0 0 #000;
+        
+    }
+    .bg-pic{
+        display: flex;
+        justify-content: center;
+    }
+    .body-desktop{
+        background-image: url("../home.jpg");
+        background-size: cover;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        /*object-fit: cover;*/
+        background-position: center;
+        height: 100vh; /* Some height */
+    }
+    .contactusmenu{
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .landing-text1{
+        font-family: COCOGOOSE;
+        font-size: 2.5em;
+        text-align: center;
+        width: 70%;
+        color: wheat;
+        text-shadow: 1.5px 0 0 #000, 0 -1.5px 0 #000, 0 1.5px 0 #000, -1.5px 0 0 #000;
+    }
+    .body-desktop1{
+        width: 100%;
+    }
+    .body-desktop2{
+        background-color: rgb(233, 179, 79);
+    }
+    .service-container{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .cleaning{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .install{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .service-icons{
+        width: 100px;
+        height:100px;
+        margin-left: 50px;
+        margin-right: 50px;
+        display: flex;
+        justify-content: center;
     }
 }
