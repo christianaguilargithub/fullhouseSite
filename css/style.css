@@ -180,8 +180,17 @@
         font-size: 1em;
         text-align: center;
     }
+    .mobile-bod{
+        width: 100%;
+    }
+    .phone{
+        text-align: center;
+        margin-bottom: 20px;
+    }
     .medias{
         margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
     }
     .fab{
         font-size: 4em;
@@ -204,12 +213,11 @@
     .landing-text{
         font-family: COCOGOOSE;
         font-size: 2.5em;
-        padding-top: 160px;
+        padding-top: 100px;
         text-align: center;
         width: 70%;
         color: wheat;
         text-shadow: 1.5px 0 0 #000, 0 -1.5px 0 #000, 0 1.5px 0 #000, -1.5px 0 0 #000;
-        
     }
     .bg-pic{
         display: flex;
@@ -227,6 +235,9 @@
        
         height: 100vh; /* Some height */
     }
+    
+       
+    
     /* MOBILE BODY END */
 }
 
@@ -413,6 +424,7 @@
     }
     .medias{
         margin-top: 50px;
+       
     }
     .fab{
         font-size: 4em;
