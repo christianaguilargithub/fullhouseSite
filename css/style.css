@@ -129,7 +129,8 @@
         font-family: COCOGOOSE;
         font-size: medium;
         letter-spacing: .1em;
-        background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+        /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
+        background-color: #2c2a2a;
         color: white;
         text-align: center;
         padding-top: 10px;
