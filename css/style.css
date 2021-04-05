@@ -223,7 +223,7 @@
     .bg-pic{
         display: flex;
         justify-content: center;
-        background-color: 
+    
     }
     .body-desktop{
         background-image: url("../home.jpg");
@@ -253,7 +253,7 @@
     footer{
         width: 100%;
         text-align: center;
-        font-size: 1.2em;add .
+        font-size: 1.2em;
         letter-spacing: .2em;
         font-weight: 550;
         font-family: poppins;
