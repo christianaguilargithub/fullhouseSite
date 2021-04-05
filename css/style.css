@@ -178,7 +178,8 @@
         text-align: center;
         font-family: COCOGOOSE;
         font-size: 2em;
-        margin-top: 20px;
+        padding-top: 20px;
+        background-color: rgb(233, 179, 79);
         
     }
     .text-p{
@@ -187,6 +188,9 @@
     }
     .mobile-bod{
         width: 100%;
+        background-color: rgb(233, 179, 79);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
     }
     .phone{
         text-align: center;
@@ -211,9 +215,11 @@
         margin-top: 70px;
     }
     .fas{
-        font-size: 1.5em;
+        font-family: poppins;
+        font-size: 1.2em;
         color: black;
         cursor: pointer;
+        margin-bottom: 20px;
     }
     .landing-text{
         font-family: COCOGOOSE;
